@@ -1,0 +1,144 @@
+body {
+      margin: 0;
+      padding:0
+}
+#top-nav {
+position: fixed;
+top: 0;
+left:0;
+z-index: 1;
+background-color:white;
+width:100%;
+box-shadow: 0px 2px 5px black;
+}
+#top-nav a {
+    text-decoration: none;
+    color:rgba(0,0,0,0.795);
+    font-size: 20px;
+    display: inline-block;
+    padding: 6px;
+    margin: 13px;
+    letter-spacing: 3px;
+}
+#top-nav-right{
+    float:right;
+    margin-right: 10px;
+}
+#home-section {
+    position:relative ;
+    margin-bottom:50px;
+}
+
+
+
+#home-section p{
+    position: absolute;
+    bottom: 10px;
+    left:20px;
+    font-size:45px;
+    color:gray;
+}
+#section-container {
+    width: 70%;
+    margin: auto;
+
+}
+#about-section p{
+    font-size:20px;
+}
+#about-section{
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+#img-container{
+    box-sizing: border-box;
+    width:49%;
+    float: left;
+    padding: 10px 20px;
+}
+#text-container{
+    box-sizing: border-box;
+    width:49%;
+    float: left;
+    padding: 10px 20px;
+
+}
+#menu-section{
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+#about-section::after{
+    content:"";
+    display:table;
+    clear: both;
+}
+#menu-section{
+    padding-top: 70px;
+    opacity: inherit;
+}
+#menu-section::after{
+    content: "";
+    display: table;
+    clear: both;
+
+
+    /* padding-top: 70px;
+    margin-bottom: 50px; */
+
+
+}
+#text-container2 {
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 49%;
+    float: left;
+}
+
+#img-container{
+    box-sizing: border-box;
+    width:49%;
+    float: left;
+    padding: 10px 20px;
+}
+
+
+#img-container2 { 
+    box-sizing: border-box;
+    width: 55%;
+    float: right;
+    padding: 10px 20px;
+    background-color: lightblue;
+    
+}
+#contact-section{
+    padding: 70px 20px;
+    margin-bottom: 50px;
+}
+#contact-section p{
+    font-size: 15px;
+}
+#contact-section input[type="text"],#contact-section input[type="date"]{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+#button{
+    padding-top: 15px;
+    border:none;
+    background-color: rgb(222, 198, 198);
+    font-family: serif;
+    font-family: 15px;
+    padding: 10px;
+
+}
+#footer{
+    padding: 40px;
+    background-color: rgb(152, 149, 149);
+    text-align: center;
+    font-size: 10px;
+}
